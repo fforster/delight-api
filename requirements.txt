@@ -1,0 +1,23 @@
+# Core ML
+tensorflow-cpu==2.9.1
+numpy>=1.20,<1.24
+h5py>=3.1,<4
+protobuf>=3.9.2,<3.20
+
+# Astronomy
+astropy>=5.0,<6
+astroquery>=0.4.6,<0.5
+sep>=1.2,<2
+xarray>=2022.3,<2023
+
+# Plotting (required by delight module-level imports, not used at runtime)
+matplotlib>=3.5,<4
+
+# API
+fastapi>=0.95,<1
+uvicorn[standard]>=0.21,<1
+pydantic>=1.10,<2
+
+# Utilities
+pandas>=1.4,<2
+scipy>=1.7,<2
